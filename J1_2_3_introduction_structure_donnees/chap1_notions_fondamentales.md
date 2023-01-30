@@ -426,6 +426,8 @@ for (let i = 0; i < 10; i++) {
 console.log(i);
 ```
 
+- Le code suivant est correct. Il affiche des nombres de 0 à 9 et 100 dans le console.log à l'extérieur de la boucle.
+
 Est ce que le code qui suit vous semble correcte ? Répondez sans exécuter le code.
 
 Si ce code est valide qu'affichera-t-il ?
@@ -434,6 +436,8 @@ Si ce code est valide qu'affichera-t-il ?
 for (let j = 0; j < 10; j++) {}
 console.log(j);
 ```
+
+- Le code suivant est incorrect. Le code lève une erreur du type ReferenceError, car j n'est pas définie.
 
 ## Déclaration d'une constante <a class="anchor" id="chapter5"></a>
 
