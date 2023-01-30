@@ -416,6 +416,8 @@ tdz();
 
 Est ce que le code qui suit vous semble correcte ? Répondez sans exécuter le code.
 
+Si ce code est valide qu'affichera-t-il ?
+
 ```js
 let i = 100;
 
