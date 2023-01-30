@@ -370,6 +370,34 @@ calcul();
 
 ```
 
+Ce script provoque une erreur de type ReferenceError: Cannot access 'a' before initialization. On ne peut pas, en JS, faire référence à la variable que l'on en train de définir dans l'assignation.
+
+Pour corriger le problème il suffit de changer de symbole (de nom de variable)
+
+
+```js
+
+let a = 1;
+
+function calcul() {
+  // nouveau symbole A
+  let A = 2 + a;
+
+  console.log(A, "calcul");
+
+  function sub_calcul() {
+    let b = A + 1;
+
+    console.log(b, "sub_calcul");
+  }
+
+  sub_calcul();
+}
+
+calcul();
+
+```
+
 ### 02 Exercice TDZ (temporal dead zone) (sans coder) <a class="anchor" id="section43"></a>
 
 Est ce que le code qui suit vous semble correcte ? Répondez sans exécuter le code.
