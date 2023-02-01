@@ -21,7 +21,7 @@ Ecrire un script pour déterminer le maximun de trois variables distinctes a, b 
 
 ### 03 Exercice
 
-Soit le tableau data ci-dessous, compter dans un tableau results le nombre d'occurences des entiers du tableau data.
+Soit le tableau data ci-dessous, compter dans un tableau results le nombre d'occurences de chaque entier du tableau data.
 
 ```js
 results = [];
