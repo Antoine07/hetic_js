@@ -36,7 +36,7 @@ data = [
 
 Rechercher sur Wikipédia le cryptogramme de César.
 
-Faire le Cryptogramme César, décallage de l'ordre par la position des lettres.
+Faire le Cryptogramme César, décallage d'un nombre N des lettres d'une phrase.
 
 Créez deux fonctions 
 
