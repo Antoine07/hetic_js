@@ -1,12 +1,16 @@
 # Projet 
 
-Voyez les wireframe ci-après pour la réalisation du projet.
+Voyez le wireframe ci-après pour la réalisation du projet.
+
+Vous utiliserez l'API suivante pour récupérer les posts :
+
+**https://jsonplaceholder.typicode.com**
 
 1. Vous devez faire une petite application qui permet de récupérer un certain nombre de post(s).
 
 2. Créez un bouton calculant le nombre de "e" dans chaque titre de post(s) récupéré(s).
 
-3. Faites la moyenne des e dans chaque titre.
+3. (Facultatif) Faites la moyenne des e dans chaque titre.
 
 Indications : vous utiliserez, le code d'exemple suivant pour faire cette petite application.
 
