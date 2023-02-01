@@ -79,3 +79,23 @@ Indications : vous utiliserez, le code d'exemple suivant pour faire cette petite
 </body>
 </html>
 ``` 
+
+Wireframe 
+
+```txt
+
+Nombre de post(s) : [8]
+
+titre 1 
+
+titre 2 
+
+...
+
+Le nombre de "e" 
+
+[Calculer] 
+
+8
+
+```
