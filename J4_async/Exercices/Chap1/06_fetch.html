@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script type="text/javascript" defer>
+      let queryAdresses = (adresse) => {
+          let query = `https://api-adresse.data.gouv.fr/search?q=${adresse}&limit=20`;
+          console.log(query)
+          fetch(query)
+              .then(response => response.json())
+              .then(json => parseJson(json))
+      }
+
+      let parseJson = (collection) => {
+          console.log(collection.features)
+          collection.features.map(extractProperties)
+      }
+
+      let extractProperties = (adresse) => {
+          let city = adresse.properties.city;
+          let postcode = adresse.properties.postcode;
+          console.log(city, postcode)
+          return [city, postcode]
+      }
+
+        queryAdresses('Paris')
+    </script>
+  </head>
+  <body>
+    <h1>Adresses</h1>
+  </body>
+</html>
