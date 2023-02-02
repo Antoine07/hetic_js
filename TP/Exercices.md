@@ -21,10 +21,10 @@ Ecrire un script pour déterminer le maximun de trois variables distinctes a, b 
 
 ### 03 Exercice
 
-Soit le tableau data ci-dessous, compter dans un tableau results le nombre d'occurences de chaque entier du tableau data.
+Soit le tableau data ci-dessous, compter dans un objet results le nombre d'occurences de chaque entier du tableau data.
 
 ```js
-results = [];
+results = {};
 
 data = [
   1, 1, 2, 3, 4, 8, 8, 5, 6, 6, 9, 9, 10, 11, 12, 14, 48, 48, 51, 51, 1, 1, 1,
@@ -32,19 +32,19 @@ data = [
 ];
 ```
 
-### 04 Exercice César 
+### 04 Exercice César
 
 Rechercher sur Wikipédia le cryptogramme de César.
 
 Faire le Cryptogramme César, décallage d'un nombre N des lettres d'une phrase.
 
-Créez deux fonctions 
+Créez deux fonctions
 
 1. Fonction qui permet de décaler une lettre de n position dans les lettres encodés en JS.
 
 ```js
 char_rot(1, 'Z');
-``` 
+```
 
 Vous utiliserez dans votre script les deux fonctions suivantes :
 
