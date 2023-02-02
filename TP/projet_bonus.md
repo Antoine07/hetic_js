@@ -22,7 +22,7 @@ Pour cela :
 Indications :
 - Vous utiliserez le code d'exemple suivant pour faire cette petite application. Vous serez sans doute amenés à créer des prévoir des éléments supplémentaires pour les diférents blocs.
 - Utilisez l'API HTML pour la manipulation du DOM
-- Une fois que vous avez récupéré la liste des utilisateurs, créez des objets pour conserver le données de amnière pérenne et créez une collection à cet effet.
+- Une fois que vous avez récupéré la liste des utilisateurs, créez des objets pour conserver le données de manière pérenne et créez une collection à cet effet. Cette collection pourrait également servir à stocker les données statistiques de chaque utilisateur.
 
 ```html
 <!DOCTYPE html>
