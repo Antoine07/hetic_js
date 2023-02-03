@@ -1,7 +1,7 @@
 # Exercices sur la récursivité
 
-
-
+[Algorithme Récursif](https://www.wikiwand.com/fr/Algorithme_r%C3%A9cursif
+)
 ## Exercice 01
 
 Vous devez faire la somme d'une listede nombres. Implémenter deux fonctions différentes :
